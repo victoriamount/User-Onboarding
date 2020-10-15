@@ -126,7 +126,7 @@ export default function SignupForm(props) {
                 </label>
                 <br/>
                 {/* Button disabled until all forms filled */}
-                <button disabled={disabled}>Submit</button>
+                <button id='submitButton' disabled={disabled}>Submit</button>
 
             </StyledFormDiv>
         </StyledFormContainer>

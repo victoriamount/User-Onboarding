@@ -10,14 +10,16 @@ import marsCover from './images/marsCover.jpg'
 
 // ------------ INITIAL STATES ------------
 const initialFormValues = {
-  name: '',
+  first_name: '',
+  last_name: '',
   email: '',
   password: '',
   tos: false,
 };
 
 const initialFormErrors = {
-  name: '',
+  first_name: '',
+  last_name: '',
   email: '',
   password: '',
 };
