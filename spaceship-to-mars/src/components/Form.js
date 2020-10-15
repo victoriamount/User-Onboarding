@@ -10,9 +10,9 @@ const StyledFormContainer = Styled.form`
 
 const StyledFormDiv = Styled.div`
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     border: 4px solid ${props => props.theme.primaryColor};
-    width: 50%;
+    max-width: 800px;
     background: ${props => props.theme.white};
     align-items: space-between;
     padding: 2%;
